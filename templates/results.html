@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TinyURL</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Your shortened URL</h1>
+        <p>Short URL: <a href="/{{ short_url }}">http://127.0.0.1:5000/{{ short_url }}</a></p>
+    </div>
+</body>
+</html>
